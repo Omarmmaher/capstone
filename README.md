@@ -1,20 +1,13 @@
-[![CircleCI](https://circleci.com/gh/kelanik8/capstone-project.svg?style=svg)](https://circleci.com/gh/kelanik8/capstone-project/)
+[![Circle CI](https://circleci.com/gh/ahmedadell94/capstone.svg?style=svg&circle-token=6521706bd41da1413023a48eea8b1322356e1e95)](https://app.circleci.com/pipelines/github/ahmedadell94/capstone?branch=main)
 
-## Cloud DevOps Engineer Capstone Project
+## github URL
 
-[Github Repo](https://github.com/kelanik8/capstone-project.git)
+[Github Repo](https://github.com/ahmedadell94/capstone)
 
-### Configure environment variables on CircleCI
-
-The following environment variablesz must be set for the project on CircleCI via the project settings page, before the project can be built successfully.
-
-| Variable                 | Description                                                                                                                                                     |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `AWS_ACCESS_KEY_ID`      | Used by the AWS CLI                                                                                                                                             |
-| `AWS_SECRET_ACCESS_KEY ` | Used by the AWS CLI                                                                                                                                             |
-| `AWS_DEFAULT_REGION`     | Used by the AWS CLI. Project value: "us-west-2"                                                                                                                 |
-| `AWS_ECR_URL`            | Identifies the AWS ECR docker image registry that the docker image will be pushed to, in the format `AWS_ACCOUNT_ID`.dkr.ecr.`AWS_DEFAULT_REGION`.amazonaws.com |
-
-### LINKSq
-
-- [Github Repo](https://github.com/kelanik8/capstone-project.git)
+## Environment in circleci
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_DEFAULT_REGION = us-west-2
+AWS_ECR_URL
+DOCKER_USERNAME
+DOCKER_PASSWORD
