@@ -153,6 +153,7 @@ workflows:
           name: build-and-push-image-ecr
           account-url: AWS_ECR_URL
           region: AWS_DEFAULT_REGION
+          create-repo: true
           repo: eks_orb_capstone_project
           dockerfile: ~/project/Dockerfile
           path: ~/project/
